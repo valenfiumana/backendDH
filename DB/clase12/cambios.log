@@ -1,0 +1,33 @@
+[2022-08-12 14:01:52] [ WARN ] [Main:52] Se eliminó al usuario con id=3
+[2022-08-12 14:02:45] [ WARN ] [Main:52] Se eliminó al usuario con id=3
+[2022-08-12 14:03:09] [ WARN ] [Main:52] Se eliminó al usuario con id=3
+[2022-08-12 14:04:31] [ WARN ] [Main:53] Se eliminó al usuario con id=3
+[2022-08-12 14:04:31] [ ERROR] [Main:66] Tabla "DIGITAL" no encontrada
+Table "DIGITAL" not found; SQL statement:
+SELECT * FROM DIGITAL [42102-214]
+[2022-08-12 14:08:46] [ WARN ] [Main:53] Se eliminó al usuario con id=3
+[2022-08-12 14:08:46] [ ERROR] [Main:67] / by zero
+[2022-08-12 14:44:28] [ WARN ] [Main:53] Se eliminó al usuario con id=3
+[2022-08-12 16:10:24] [ ERROR] [Main:56] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLEADOS(ID) ( /* key:1 */ 1, 'Taylor', 'Swift', CAST('43626410            ' AS CHAR(20)), 'jefa')"; SQL statement:
+INSERT INTO EMPLEADOS (ID, NOMBRE, APELLIDO, DNI, PUESTO) VALUES(1, 'Taylor', 'Swift', '43626410', 'jefa'),(2, 'Sofia', 'Hola', '44747383', 'empleada'),(1, 'Tomas', 'Joner', '5938373', 'actor') [23505-214]
+[2022-08-12 16:17:54] [ ERROR] [Main:71] Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.EMPLEADOS(ID) ( /* key:1 */ 1, 'Taylor', 'Swift', CAST('43626410            ' AS CHAR(20)), 'jefa')"; SQL statement:
+INSERT INTO EMPLEADOS (ID, NOMBRE, APELLIDO, DNI, PUESTO) VALUES(1, 'Taylor', 'Swift', '43626410', 'jefa'),(2, 'Sofia', 'Hola', '44747383', 'empleada'),(1, 'Tomas', 'Joner', '5938373', 'actor') [23505-214]
+[2022-08-12 16:18:40] [ DEBUG] [Main:53] Se actualizo la información del empleado: 
+ID: 1
+Nombre: Taylor
+Apellido: Swift
+Edad: 43626410
+Email: jefa
+[2022-08-12 16:18:40] [ DEBUG] [Main:53] Se actualizo la información del empleado: 
+ID: 3
+Nombre: Tomas
+Apellido: Joner
+Edad: 5938373
+Email: actor
+[2022-08-12 16:18:40] [ DEBUG] [Main:53] Se actualizo la información del empleado: 
+ID: 7
+Nombre: Sofia
+Apellido: Hola
+Edad: 44747383
+Email: empleada
+[2022-08-12 16:23:11] [ ERROR] [Main:64] No data is available [2000-214]
